@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    background-color: black;
+}
+
+
+.header {
+    margin: auto;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    padding: 20px 0px;
+    width: 74%;
+    position: fixed;
+    left: 12vw;
+    z-index: 1;
+    height: 100px;
+}
+
+.dividor {
+    width: 74%;
+    margin: auto;
+    height: 1px;
+    position: fixed;
+    top: 5.3vw;
+    left: 12.2vw;
+    z-index: 1;
+}
+
+.header .left-panel {
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.header .left-panel img {
+    width: 42px;
+    height: 42px;
+}
+
+.header .left-panel h3 {
+    color: white;
+    margin-left: 10px;
+}
+.header .right-panel {
+    margin-top: 10px;
+}
+
+.header nav ul {
+    display: flex;
+}
+
+.header nav ul li {
+    color: white;
+    list-style: none;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.header nav ul li:hover {
+    color: #18d860;
+}
+
+.container {
+    height: auto;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 78%;
+    margin: auto;
+    position: absolute;
+    top: 9vw;
+    left: 12vw;
+}
+
+.song-container {
+    padding: 20px 0px;
+}
+
+.song-list-container {
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid white;
+}
+
+.fixed-search-bar {
+    position: fixed;
+    width: 38%;
+    z-index: 1;
+}
+
+.search-container input {
+    margin-top: 10px;
+    width: 70%;
+    background-color: white;
+    padding: 8px;
+    font-weight: 700;
+    font-family: Arial, FontAwesome
+}
+
+.card {
+    display: flex;
+    margin-top: 20px;
+}
+
+.song-lists {
+    margin-top: 78px;
+}
+
+.poster img {
+    width: 3vw;
+}
+
+.songDetail {
+    margin-left: 20px;
+}
+
+.singer {
+    color: rgba(255, 255, 255, 0.643);
+}
+
+.card i {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    position: absolute;
+    left: 26vw;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.song-container {
+    position: fixed;
+    right: 17vw;
+    bottom: 14vh;
+}
+
+.song-container h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.music-banner {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.music-banner img {
+    width: 40vh;
+}
+
+.music-banner .gif img {
+    left: 300px;
+    width: 47vh;
+    position: absolute;
+    top: 200px;
+}
+
+.song-container .singer {
+    text-align: center;
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.643);
+}
+
+.progress {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    color: white;
+}
+
+#progressBar {
+    width: 100%;
+    text-align: center;
+    margin: 0 10px;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: flex;
+}
+
+.playIcon {
+    justify-content: center;
+    display: flex;
+}
+
+.playIcon i {
+    margin-top: 10px;
+    cursor: pointer;
+    margin-right: 18px;
+}
+
+.playIcon .icons {
+    display: flex;
+    width: 6vw;
+    font-size: 30px;
+}
+.footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer p{
+    color: black;
+    background-color: white;
+}
